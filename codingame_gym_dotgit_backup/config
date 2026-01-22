@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://gitlab.ea.com/a-team/ml-development/codingame_gym.git
+	fetch = +refs/heads/ea-hackathon-25:refs/remotes/origin/ea-hackathon-25
+[branch "ea-hackathon-25"]
+	remote = origin
+	merge = refs/heads/ea-hackathon-25
